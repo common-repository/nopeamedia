@@ -1,0 +1,78 @@
+{
+    "translation-revision-date": "2020-09-07T12:08:35+02:00",
+    "generator": "WP-CLI\/2.3.0",
+    "source": "assets\/dist\/sidebar.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "fi_FI",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Publications": [
+                "Julkaisut"
+            ],
+            "Generate PDF": [
+                "Luo PDF-tiedosto"
+            ],
+            "View PDF": [
+                "Katso PDF-tiedostoa"
+            ],
+            "PDF Generated": [
+                "PDF luotu"
+            ],
+            "Pick an image": [
+                "Valitse kuva"
+            ],
+            "Remove image": [
+                "Poista kuva"
+            ],
+            "Upload PDF": [
+                "Lataa PDF"
+            ],
+            "Remove Pdf": [
+                "Poista PDF"
+            ],
+            "Nopea Media": [
+                "Nopea Media"
+            ],
+            "Options": [
+                "Asetukset"
+            ],
+            "Show Footer": [
+                "N\u00e4yt\u00e4 alatunniste"
+            ],
+            "Left margin": [
+                "Vasen marginaali"
+            ],
+            "Top margin": [
+                "Yl\u00e4marginaali"
+            ],
+            "Right margin": [
+                "Oikea marginaali"
+            ],
+            "Bottom margin": [
+                "Alamarginaali"
+            ],
+            "PDF Layout Options": [
+                "PDF ulkoasun asetukset"
+            ],
+            "Heading position": [
+                "Otsikon sijoitus"
+            ],
+            "Select theme": [
+                "Valitse teema"
+            ],
+            "PDF Quality": [
+                "PDF laatu"
+            ],
+            "Background Image": [
+                "Taustakuva"
+            ],
+            "Add PDF Page": [
+                "Lis\u00e4\u00e4 PDF sivu"
+            ]
+        }
+    }
+}

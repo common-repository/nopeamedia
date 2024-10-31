@@ -1,0 +1,309 @@
+{
+    "translation-revision-date": "2021-03-15 14:22+0200",
+    "generator": "WP-CLI\/2.3.0",
+    "source": "blocks\/dist\/blocks.build.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "fi_FI",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "PDF Columns": [
+                "PDF sarakkeet"
+            ],
+            "PDF Columns (put all content inside the PDF Columns block and adjust the number of columns on your PDF layout)": [
+                "PDF sarakkeet (lis\u00e4\u00e4 tekstisis\u00e4ll\u00f6t PDF sarakkeet -lohkon sis\u00e4\u00e4n ja s\u00e4\u00e4d\u00e4 sarakkeiden m\u00e4\u00e4r\u00e4\u00e4 PDF:n ulkoasussa)"
+            ],
+            "PDF Settings": [
+                "PDF asetukset"
+            ],
+            "PDF view": [
+                "PDF katselu"
+            ],
+            "Only show in PDF": [
+                "N\u00e4yt\u00e4 vain PDF-tiedostossa"
+            ],
+            "Columns": [
+                "Sarakkeet"
+            ],
+            "Select columns for the block": [
+                "Valitse sarakkeet lohkoon"
+            ],
+            "Columns 1": [
+                "Sarakkeet 1"
+            ],
+            "Columns 2": [
+                "Sarakkeet 2"
+            ],
+            "Columns 3": [
+                "Sarakkeet 3"
+            ],
+            "Select block margin": [
+                "Aseta lohkon marginaali"
+            ],
+            "No margin": [
+                "Ei marginaalia"
+            ],
+            "Top margin": [
+                "Yl\u00e4marginaali"
+            ],
+            "Top Border": [
+                "Yl\u00e4kehys"
+            ],
+            "Set text alignment": [
+                "Aseta tekstin sovitus"
+            ],
+            "Justified": [
+                "Tasaus"
+            ],
+            "Left": [
+                "Vasen"
+            ],
+            "Fit to a new page": [
+                "Sovita uuteen sivuun"
+            ],
+            "PDF image & content": [
+                "PDF kuva & sis\u00e4lt\u00f6"
+            ],
+            "PDF image & content (place image and text side-by-side or one below another)": [
+                "PDF kuva & sis\u00e4lt\u00f6 (Lis\u00e4\u00e4 kuva ja teksti vierekk\u00e4in tai allekkain)"
+            ],
+            "No image": [
+                "Ei kuvaa"
+            ],
+            "Pick an image": [
+                "Valitse kuva"
+            ],
+            "Image position": [
+                "Kuvan sijainti"
+            ],
+            "Top": [
+                "Yl\u00e4"
+            ],
+            "Right": [
+                "Oikea"
+            ],
+            "Content width": [
+                "Sis\u00e4ll\u00f6n leveys"
+            ],
+            "Select width of content column": [
+                "Valitse sis\u00e4lt\u00f6sarakkeen leveys"
+            ],
+            "Add image text": [
+                "Lis\u00e4\u00e4 kuvateksti"
+            ],
+            "Gray border": [
+                "Harmaa kehys"
+            ],
+            "Gray background & border": [
+                "Harmaa tausta & kehys"
+            ],
+            "Border primary color": [
+                "Kehyksen ensisijainen v\u00e4ri"
+            ],
+            "Background primary color": [
+                "Taustan ensisijainen v\u00e4ri"
+            ],
+            "InfoBox Style": [
+                "Infolaatikon tyyli"
+            ],
+            "Infobox width": [
+                "Infolaatikon leveys"
+            ],
+            "WEB view": [
+                "Verkkon\u00e4kym\u00e4"
+            ],
+            "PDF infobox": [
+                "PDF infolaatikko"
+            ],
+            "Add a content area you can highlight with a background color or borders": [
+                "Lis\u00e4\u00e4 sis\u00e4lt\u00f6alue, jonka voit korostaa taustav\u00e4rill\u00e4 tai reunoilla"
+            ],
+            "Infobox": [
+                "Infolaatikko"
+            ],
+            "Nopea": [
+                "Nopea"
+            ],
+            "Nopea column": [
+                "Nopea sarake"
+            ],
+            "Nopea column ": [
+                "Nopea sarake "
+            ],
+            "PDF 2 columns": [
+                "PDF 2 saraketta"
+            ],
+            "PDF 2 columns (add separate content in two side-by-side columns)": [
+                "PDF 2 saraketta (Lis\u00e4\u00e4 erilliset sis\u00e4ll\u00f6t kahteen vierekk\u00e4iseen palstaan)"
+            ],
+            "PDF multiple columns": [
+                "PDF useat sarakkeet"
+            ],
+            "Left column size": [
+                "Vasemman sarakkeen koko"
+            ],
+            "Select left column size": [
+                "Valitse vasemman sarakkeen koko"
+            ],
+            "PDF columns image": [
+                "PDF sarakkeet kuvalla"
+            ],
+            "PDF columns image (place text and image inside Columns Image block and adjust the number of columns to 2 or 3)": [
+                "PDF sarakkeet kuvalla (Lis\u00e4\u00e4 teksti\u00e4 ja kuva ja s\u00e4\u00e4d\u00e4 palstojen m\u00e4\u00e4r\u00e4. 2-3 palstaa)"
+            ],
+            "Image size": [
+                "Kuvan koko"
+            ],
+            "Select image scale": [
+                "Valitse kuvan skaalaus"
+            ],
+            "PDF page break": [
+                "PDF sivunvaihto"
+            ],
+            "PDF page break (push content to next page)": [
+                "PDF sivunvaihto (ty\u00f6nn\u00e4 lohkon j\u00e4lkeinen sis\u00e4lt\u00f6 seuraavalle sivulle)"
+            ],
+            "Add a page break": [
+                "Lis\u00e4\u00e4 sivunvaihto"
+            ],
+            "PDF column break": [
+                "PDF sarakkeenvaihto"
+            ],
+            "PDF column break (push content to next column)": [
+                "PDF sarakkeenvaihto (ty\u00f6nn\u00e4 palstan sis\u00e4lt\u00f6 seuraavalle palstalle)"
+            ],
+            "Add a column break": [
+                "Lis\u00e4\u00e4 sarakkeenvaihto"
+            ],
+            "PDF spacer": [
+                "PDF v\u00e4listys"
+            ],
+            "PDF spacer (use for adding space between contents)": [
+                "PDF v\u00e4listys (lis\u00e4\u00e4 tyhj\u00e4\u00e4 tilaa lohkojen v\u00e4liin)"
+            ],
+            "Spacer Settings": [
+                "V\u00e4listysasetukset"
+            ],
+            "Height in pixels": [
+                "Korkeus pikselein\u00e4 (px)"
+            ],
+            "Height in mm": [
+                "Korkeus millimetrein\u00e4 (mm)"
+            ],
+            "Show in web": [
+                "N\u00e4yt\u00e4 verkossa"
+            ],
+            "Whether to show in webpage ": [
+                "N\u00e4ytet\u00e4\u00e4nk\u00f6 verkkosivulla "
+            ],
+            "Table of content": [
+                "Sis\u00e4llysluettelo"
+            ],
+            "Table of content (use for creating a table of contents)": [
+                "Sis\u00e4llysluettelo (lis\u00e4\u00e4 sis\u00e4llysluettelon alue)"
+            ],
+            "Table of content text area": [
+                "Sis\u00e4llysluettelon tekstialue"
+            ],
+            "Table of content text area (use for adding text or images on the TOC page)": [
+                "Sis\u00e4llysluettelon tekstialue (lis\u00e4\u00e4 sis\u00e4llysluettelosivulle muita sis\u00e4lt\u00f6j\u00e4 kuten teksti\u00e4 tai kuvia)"
+            ],
+            "Listing container": [
+                "Listauss\u00e4ili\u00f6"
+            ],
+            "Listing container (use for listing items on a table of contents)": [
+                "Listauss\u00e4ili\u00f6 (lis\u00e4\u00e4 sis\u00e4llysluettelon listaus)"
+            ],
+            "Listing item": [
+                "Listauselementti"
+            ],
+            "Listing item (use for adding items on the TOC list)": [
+                "Listauselementti (lis\u00e4\u00e4 kohtia sis\u00e4llysluettelon listaan)"
+            ],
+            "Add number": [
+                "Lis\u00e4\u00e4 numero"
+            ],
+            "Add text": [
+                "Lis\u00e4\u00e4 teksti"
+            ],
+            "Fixed block": [
+                "Kiinte\u00e4 lohko"
+            ],
+            "Fixed block (make a fixed footer to a page)": [
+                "Kiinte\u00e4 lohko (lis\u00e4\u00e4 sivulle kiinte\u00e4 ala- tai yl\u00e4tunniste, johon voit m\u00e4\u00e4ritell\u00e4 taustav\u00e4rin)"
+            ],
+            "White": [
+                "Valkoinen"
+            ],
+            "Black": [
+                "Musta"
+            ],
+            "PDF Primary": [
+                "PDF ensisijainen"
+            ],
+            "PDF Secondary": [
+                "PDF toissijainen"
+            ],
+            "Select Position": [
+                "Valitse sijainti"
+            ],
+            "Bottom": [
+                "Ala"
+            ],
+            "Top padding": [
+                "Yl\u00e4 palstant\u00e4yte (padding)"
+            ],
+            "Block top padding in PDF": [
+                "Lohkon yl\u00e4 palstant\u00e4yte PDF:ss\u00e4 (padding)"
+            ],
+            "Bottom padding": [
+                "Ala palstant\u00e4yte (padding)"
+            ],
+            "Block bottom padding in PDF": [
+                "Ala palstant\u00e4yte PDF:ss\u00e4 (padding)"
+            ],
+            "PDF background color": [
+                "PDF taustav\u00e4ri"
+            ],
+            "Web block": [
+                "Verkkolohko"
+            ],
+            "Add content that will only appear online (not on PDF)": [
+                "Lis\u00e4\u00e4 sis\u00e4lt\u00f6\u00e4, joka n\u00e4kyy vain verkkoartikkelissa (ei PDF:ss\u00e4)"
+            ],
+            "Heading h1": [
+                "Otsikko h1"
+            ],
+            "Heading h2": [
+                "Otsikko h2"
+            ],
+            "Heading h3": [
+                "Otsikko h3"
+            ],
+            "heading h4": [
+                "otsikko h4"
+            ],
+            "Select style": [
+                "Valitse tyyli"
+            ],
+            "PDF font size": [
+                "PDF fonttikoko"
+            ],
+            "PDF text Color": [
+                "PDF tekstin v\u00e4ri"
+            ],
+            "Has background color": [
+                "On taustav\u00e4ri"
+            ],
+            "PDF Heading": [
+                "PDF otsikko"
+            ],
+            "Add titles to a cover page. Adjust the titles\u2019 font size and background color.": [
+                "Lis\u00e4\u00e4 otsikoita kansilehteen. S\u00e4\u00e4d\u00e4 otsikoiden fonttikokoa ja taustav\u00e4ri\u00e4."
+            ]
+        }
+    }
+}

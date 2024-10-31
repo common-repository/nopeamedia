@@ -1,0 +1,710 @@
+# Copyright (C) 2020 nopea.media
+# This file is distributed under the same license as the Print PDF Generator and Publisher plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Print PDF Generator and Publisher 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/nopeamedia\n"
+"POT-Creation-Date: 2021-03-30T11:08:02+00:00\n"
+"PO-Revision-Date: 2021-03-30 14:10+0300\n"
+"Last-Translator: Verkkovaraani <helpdesk@verkkovaraani.fi>\n"
+"Language-Team: Verkkovaraani <helpdesk@verkkovaraani.fi>\n"
+"Language: fi_FI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Domain: nopea-media\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name of the plugin
+msgid "Print PDF Generator and Publisher"
+msgstr "Tulostuslaatuisten PDF:ien luoja ja julkaisija"
+
+#. Description of the plugin
+msgid "Print PDF generator and publisher by Nopea.Media"
+msgstr "Tulostuslaatuisten PDF:ien luoja ja julkaisija Nopea.Medialta"
+
+#. Author of the plugin
+msgid "nopea.media"
+msgstr "nopea.media"
+
+#. Author URI of the plugin
+msgid "https://en.nopea.media"
+msgstr "https://nopea.media"
+
+#: blocks/init.php:79
+msgid "PDF Blocks"
+msgstr "PDF-lohkot"
+
+#: src/NopMed_Ajax.php:94
+msgid "Error occured while generating the PDF"
+msgstr "Virhe luotaessa PDF-tiedostoa"
+
+#: src/NopMed_Dao.php:101 src/NopMed_Dao.php:110
+msgid "Key not found in attribute list"
+msgstr "Avainta ei löytynyt attribuuttilistasta"
+
+#: src/NopMed_Data.php:19
+msgid ""
+"Invalid token. Please check in settings that you have filled in valid token "
+"which you acquired from https://en.nopea.media"
+msgstr ""
+"Virheellinen avain. Tarkista lisäosan asetuksista, että olet syöttänyt "
+"oikean API-avaimen, jonka hankit osoitteesta https://en.nopea.media"
+
+#: src/NopMed_Publication.php:87 dist/sidebar.js:1
+msgid "Publications"
+msgstr "Julkaisut"
+
+#: src/NopMed_Publication.php:88
+msgid "Publication"
+msgstr "Julkaisu"
+
+#: src/NopMed_Publication.php:89
+msgid "Add New"
+msgstr "Lisää Uusi"
+
+#: src/NopMed_Publication.php:90
+msgid "Create Publication"
+msgstr "Lisää julkaisu"
+
+#: src/NopMed_Publication.php:91 src/NopMed_Publication.php:92
+msgid "Edit Publication"
+msgstr "Muokkaa julkaisua"
+
+#: src/NopMed_Publication.php:93
+msgid "New Publication"
+msgstr "Uusi julkaisu"
+
+#: src/NopMed_Publication.php:94 src/NopMed_Publication.php:95
+msgid "View Publication"
+msgstr "Katso julkaisua"
+
+#: src/NopMed_Publication.php:96
+msgid "Search PDF"
+msgstr "Hae PDF-tiedostoa"
+
+#: src/NopMed_Publication.php:97
+msgid "No PDF found"
+msgstr "PDF-tiedostoa ei löytynyt"
+
+#: src/NopMed_Publication.php:98
+msgid "No PDF found in the trash"
+msgstr "PDF-tiedostoa ei löytynyt roskakorista"
+
+#: src/NopMed_Publication.php:113
+msgid "Generate PDF from Post content in Wordpress."
+msgstr "Luo PDF julkaisu artikkelin sisällöstä Wordpressissä."
+
+#: src/NopMed_Publication.php:155
+msgid "API key is required"
+msgstr "API-avain tarvitaan"
+
+#: src/NopMed_Publication.php:345
+msgid "<br/> Error: <b>%s</b>"
+msgstr "<br/> Virhe: <b>%s</b>"
+
+#: src/NopMed_Publication.php:434
+msgid ""
+"PDF generated successfully. <a href=\"%s\" target=\"_blank\">View pdf</a>"
+msgstr ""
+"PDF luotu onnistuneesti. <a href=\"%s\" target=\"_blank\">Katso PDF:ää</a>"
+
+#: src/NopMed_Publication.php:438
+msgid "An error occured while generating PDF from article: %s."
+msgstr "Virhe luotaessa PDF-tiedostoa artikkelista: %s."
+
+#: src/NopMed_Publication.php:443
+msgid "PDF generation failed."
+msgstr "PDF-tiedoston luominen epäonnistui."
+
+#: src/NopMed_Publication.php:474
+msgid "Options"
+msgstr "Asetukset"
+
+#: src/NopMed_Publication.php:483
+msgid "Posts"
+msgstr "Artikkelit"
+
+#: src/NopMed_Publication.php:539
+msgid "Delete post \" {name} \" and its subitems ?"
+msgstr "Poista julkaisu \" {name} \" ja sen alakohdat ?"
+
+#: src/NopMed_Publication.php:616
+msgid "PDF"
+msgstr "PDF"
+
+#: src/NopMed_Publication.php:628 src/NopMed_Publication.php:634
+msgid "View PDF"
+msgstr "Katso PDF-tiedostoa"
+
+#: templates/plugin_settings.php:4
+msgid "Nopea.media settings"
+msgstr "Nopea.media asetukset"
+
+#: templates/plugin_settings.php:11
+msgid "Info"
+msgstr "Infolaatikko"
+
+#: templates/plugin_settings.php:15
+msgid "PDF publication quota: "
+msgstr "PDF-julkaisukiintiö"
+
+#: templates/plugin_settings.php:16
+msgid "Subscription and quota renews on: "
+msgstr "Tilaus ja kiintiö uusitaan"
+
+#: templates/plugin_settings.php:24
+msgid "Publication Quota"
+msgstr "Julkaisukiintiö"
+
+#: templates/plugin_settings.php:29 templates/plugin_settings.php:73
+msgid "Get Token"
+msgstr "Hanki poletti"
+
+#: templates/plugin_settings.php:36
+msgid "PDF Color Scheme"
+msgstr "PDF värimaailma"
+
+#: templates/plugin_settings.php:42
+msgid "Primary color (CMYK)"
+msgstr "Ensisijainen väri (CMYK)"
+
+#: templates/plugin_settings.php:47
+msgid "Secondary color (CMYK)"
+msgstr "Toissijainen väri (CMYK)"
+
+#: templates/plugin_settings.php:55
+msgid "API endpoint"
+msgstr "API päätepiste"
+
+#: templates/plugin_settings.php:60
+msgid "Dev only"
+msgstr "Ainoastaan kehittäjille"
+
+#: templates/plugin_settings.php:68
+msgid "API Key"
+msgstr "API-avain"
+
+#: templates/plugin_settings.php:88
+msgid "Save Changes"
+msgstr "Tallenna muutokset"
+
+#: templates/publication_posts.php:67
+msgid "Menu exists, generate new menu?"
+msgstr "Valikko on jo olemassa. Luodaanko uusi valikko?"
+
+#: templates/publication_posts.php:67
+msgid "Generate Menu"
+msgstr "Luo valikko"
+
+#: templates/publication_settings.php:11 dist/sidebar.js:1
+msgid "Generate PDF"
+msgstr "Luo PDF-tiedosto"
+
+#: templates/publication_settings.php:17
+msgid "Subarticles in new page"
+msgstr "Ala-artikkelit uudella sivulla"
+
+#: templates/publication_settings.php:26 dist/sidebar.js:1
+msgid "PDF Quality"
+msgstr "PDF laatu"
+
+#: templates/publication_settings.php:31 dist/sidebar.js:1
+msgid "Web"
+msgstr "Verkko"
+
+#: templates/publication_settings.php:32 templates/publication_settings.php:38
+msgid "Preview PDF"
+msgstr "Esikatsele PDF-tiedostoa"
+
+#: templates/publication_settings.php:37
+msgid "Print"
+msgstr "Tulostus"
+
+#: templates/publication_settings.php:48
+msgid "Odd Pages Footer"
+msgstr "Parittomien sivujen alatunniste"
+
+#: templates/publication_settings.php:53
+msgid "Even Pages Footer"
+msgstr "Parillisten sivujen alatunniste"
+
+#: blocks/dist/blocks.build.js:1
+msgid "PDF Columns"
+msgstr "PDF sarakkeet"
+
+#: blocks/dist/blocks.build.js:1
+msgid ""
+"PDF Columns (put all content inside the PDF Columns block and adjust the "
+"number of columns on your PDF layout)"
+msgstr ""
+"PDF sarakkeet (lisää tekstisisällöt PDF sarakkeet -lohkon sisään ja säädä "
+"sarakkeiden määrää PDF:n ulkoasussa)"
+
+#: blocks/dist/blocks.build.js:1
+msgid "PDF Settings"
+msgstr "PDF asetukset"
+
+#: blocks/dist/blocks.build.js:1
+msgid "PDF view"
+msgstr "PDF katselu"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Only show in PDF"
+msgstr "Näytä vain PDF-tiedostossa"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Columns"
+msgstr "Sarakkeet"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Select columns for the block"
+msgstr "Valitse sarakkeet lohkoon"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Columns 1"
+msgstr "Sarakkeet 1"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Columns 2"
+msgstr "Sarakkeet 2"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Columns 3"
+msgstr "Sarakkeet 3"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Select block margin"
+msgstr "Aseta lohkon marginaali"
+
+#: blocks/dist/blocks.build.js:1
+msgid "No margin"
+msgstr "Ei marginaalia"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Top margin"
+msgstr "Ylämarginaali"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Top Border"
+msgstr "Yläkehys"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Set text alignment"
+msgstr "Aseta tekstin sovitus"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Justified"
+msgstr "Tasaus"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Left"
+msgstr "Vasen"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Fit to a new page"
+msgstr "Sovita uuteen sivuun"
+
+#: blocks/dist/blocks.build.js:1
+msgid "PDF image & content"
+msgstr "PDF kuva & sisältö"
+
+#: blocks/dist/blocks.build.js:1
+msgid ""
+"PDF image & content (place image and text side-by-side or one below another)"
+msgstr "PDF kuva & sisältö (Lisää kuva ja teksti vierekkäin tai allekkain)"
+
+#: blocks/dist/blocks.build.js:1
+msgid "No image"
+msgstr "Ei kuvaa"
+
+#: blocks/dist/blocks.build.js:1 dist/sidebar.js:1
+msgid "Pick an image"
+msgstr "Valitse kuva"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Image position"
+msgstr "Kuvan sijainti"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Top"
+msgstr "Ylä"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Right"
+msgstr "Oikea"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Content width"
+msgstr "Sisällön leveys"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Select width of content column"
+msgstr "Valitse sisältösarakkeen leveys"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Add image text"
+msgstr "Lisää kuvateksti"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Gray border"
+msgstr "Harmaa kehys"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Gray background & border"
+msgstr "Harmaa tausta & kehys"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Border primary color"
+msgstr "Kehyksen ensisijainen väri"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Background primary color"
+msgstr "Taustan ensisijainen väri"
+
+#: blocks/dist/blocks.build.js:1
+msgid "InfoBox Style"
+msgstr "Infolaatikon tyyli"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Infobox width"
+msgstr "Infolaatikon leveys"
+
+#: blocks/dist/blocks.build.js:1
+msgid "WEB view"
+msgstr "Verkkonäkymä"
+
+#: blocks/dist/blocks.build.js:1
+msgid "PDF infobox"
+msgstr "PDF infolaatikko"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Add a content area you can highlight with a background color or borders"
+msgstr "Lisää sisältöalue, jonka voit korostaa taustavärillä tai reunoilla"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Infobox"
+msgstr "Infolaatikko"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Nopea"
+msgstr "Nopea"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Nopea column"
+msgstr "Nopea sarake"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Nopea column "
+msgstr "Nopea sarake "
+
+#: blocks/dist/blocks.build.js:1
+msgid "PDF 2 columns"
+msgstr "PDF 2 saraketta"
+
+#: blocks/dist/blocks.build.js:1
+msgid "PDF 2 columns (add separate content in two side-by-side columns)"
+msgstr ""
+"PDF 2 saraketta (Lisää erilliset sisällöt kahteen vierekkäiseen palstaan)"
+
+#: blocks/dist/blocks.build.js:1
+msgid "PDF multiple columns"
+msgstr "PDF useat sarakkeet"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Left column size"
+msgstr "Vasemman sarakkeen koko"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Select left column size"
+msgstr "Valitse vasemman sarakkeen koko"
+
+#: blocks/dist/blocks.build.js:1
+msgid "PDF columns image"
+msgstr "PDF sarakkeet kuvalla"
+
+#: blocks/dist/blocks.build.js:1
+msgid ""
+"PDF columns image (place text and image inside Columns Image block and "
+"adjust the number of columns to 2 or 3)"
+msgstr ""
+"PDF sarakkeet kuvalla (Lisää tekstiä ja kuva ja säädä palstojen määrä. 2-3 "
+"palstaa)"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Image size"
+msgstr "Kuvan koko"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Select image scale"
+msgstr "Valitse kuvan skaalaus"
+
+#: blocks/dist/blocks.build.js:1
+msgid "PDF page break"
+msgstr "PDF sivunvaihto"
+
+#: blocks/dist/blocks.build.js:1
+msgid "PDF page break (push content to next page)"
+msgstr "PDF sivunvaihto (työnnä lohkon jälkeinen sisältö seuraavalle sivulle)"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Add a page break"
+msgstr "Lisää sivunvaihto"
+
+#: blocks/dist/blocks.build.js:1
+msgid "PDF column break"
+msgstr "PDF sarakkeenvaihto"
+
+#: blocks/dist/blocks.build.js:1
+msgid "PDF column break (push content to next column)"
+msgstr "PDF sarakkeenvaihto (työnnä palstan sisältö seuraavalle palstalle)"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Add a column break"
+msgstr "Lisää sarakkeenvaihto"
+
+#: blocks/dist/blocks.build.js:1
+msgid "PDF spacer"
+msgstr "PDF välistys"
+
+#: blocks/dist/blocks.build.js:1
+msgid "PDF spacer (use for adding space between contents)"
+msgstr "PDF välistys (lisää tyhjää tilaa lohkojen väliin)"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Spacer Settings"
+msgstr "Välistysasetukset"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Height in pixels"
+msgstr "Korkeus pikseleinä (px)"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Height in mm"
+msgstr "Korkeus millimetreinä (mm)"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Show in web"
+msgstr "Näytä verkossa"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Whether to show in webpage "
+msgstr "Näytetäänkö verkkosivulla "
+
+#: blocks/dist/blocks.build.js:1
+msgid "Table of content"
+msgstr "Sisällysluettelo"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Table of content (use for creating a table of contents)"
+msgstr "Sisällysluettelo (lisää sisällysluettelon alue)"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Table of content text area"
+msgstr "Sisällysluettelon tekstialue"
+
+#: blocks/dist/blocks.build.js:1
+msgid ""
+"Table of content text area (use for adding text or images on the TOC page)"
+msgstr ""
+"Sisällysluettelon tekstialue (lisää sisällysluettelosivulle muita sisältöjä "
+"kuten tekstiä tai kuvia)"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Listing container"
+msgstr "Listaussäiliö"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Listing container (use for listing items on a table of contents)"
+msgstr "Listaussäiliö (lisää sisällysluettelon listaus)"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Listing item"
+msgstr "Listauselementti"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Listing item (use for adding items on the TOC list)"
+msgstr "Listauselementti (lisää kohtia sisällysluettelon listaan)"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Add number"
+msgstr "Lisää numero"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Add text"
+msgstr "Lisää teksti"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Fixed block"
+msgstr "Kiinteä lohko"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Fixed block (make a fixed footer to a page)"
+msgstr ""
+"Kiinteä lohko (lisää sivulle kiinteä ala- tai ylätunniste, johon voit "
+"määritellä taustavärin)"
+
+#: blocks/dist/blocks.build.js:1
+msgid "White"
+msgstr "Valkoinen"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Black"
+msgstr "Musta"
+
+#: blocks/dist/blocks.build.js:1
+msgid "PDF Primary"
+msgstr "PDF ensisijainen"
+
+#: blocks/dist/blocks.build.js:1
+msgid "PDF Secondary"
+msgstr "PDF toissijainen"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Select Position"
+msgstr "Valitse sijainti"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Bottom"
+msgstr "Ala"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Top padding"
+msgstr "Ylä palstantäyte (padding)"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Block top padding in PDF"
+msgstr "Lohkon ylä palstantäyte PDF:ssä (padding)"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Bottom padding"
+msgstr "Ala palstantäyte (padding)"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Block bottom padding in PDF"
+msgstr "Ala palstantäyte PDF:ssä (padding)"
+
+#: blocks/dist/blocks.build.js:1
+msgid "PDF background color"
+msgstr "PDF taustaväri"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Web block"
+msgstr "Verkkolohko"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Add content that will only appear online (not on PDF)"
+msgstr "Lisää sisältöä, joka näkyy vain verkkoartikkelissa (ei PDF:ssä)"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Heading h1"
+msgstr "Otsikko h1"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Heading h2"
+msgstr "Otsikko h2"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Heading h3"
+msgstr "Otsikko h3"
+
+#: blocks/dist/blocks.build.js:1
+msgid "heading h4"
+msgstr "otsikko h4"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Select style"
+msgstr "Valitse tyyli"
+
+#: blocks/dist/blocks.build.js:1
+msgid "PDF font size"
+msgstr "PDF fonttikoko"
+
+#: blocks/dist/blocks.build.js:1
+msgid "PDF text color"
+msgstr "PDF tekstin väri"
+
+#: blocks/dist/blocks.build.js:1
+msgid "Has background color"
+msgstr "On taustaväri"
+
+#: blocks/dist/blocks.build.js:1
+msgid "PDF Heading"
+msgstr "PDF otsikko"
+
+#: blocks/dist/blocks.build.js:1
+msgid ""
+"Add titles to a cover page. Adjust the titles’ font size and background "
+"color."
+msgstr ""
+"Lisää otsikoita kansilehteen. Säädä otsikoiden fonttikokoa ja taustaväriä."
+
+#: dist/sidebar.js:1
+msgid "Remove image"
+msgstr "Poista kuva"
+
+#: dist/sidebar.js:1
+msgid "Upload PDF"
+msgstr "Lataa PDF"
+
+#: dist/sidebar.js:1
+msgid "Remove PDF"
+msgstr "Poista PDF"
+
+#: dist/sidebar.js:1
+msgid "Nopea.media"
+msgstr "nopea.media"
+
+#: dist/sidebar.js:1
+msgid "Show Footer"
+msgstr "NÃ¤ytÃ¤ alatunniste"
+
+#: dist/sidebar.js:1
+msgid "Print (Pro)"
+msgstr "Tulostus"
+
+#: dist/sidebar.js:1
+msgid "Add PDF Page"
+msgstr "LisÃ¤Ã¤ PDF sivu"
+
+#: dist/sidebar.js:1
+msgid "Heading position"
+msgstr "Otsikon sijoitus"
+
+#: dist/sidebar.js:1
+msgid "Select theme"
+msgstr "Valitse teema"
+
+#~ msgid "Settings"
+#~ msgstr "Asetukset"
+
+#~ msgid "Error contacting api server"
+#~ msgstr "Virhe yhdistÃ¤essÃ¤ api serveriin"
+
+#~ msgid "Error while saving settings. Check your API Key"
+#~ msgstr "Virhe asetusten tallentamisessa. Tarkista API avaimesi"
+
+#~ msgid "PDF Generated Successfully."
+#~ msgstr "PDF luotu onnistuneesti."
+
+#~ msgid "PDF Generated"
+#~ msgstr "PDF luotu"
+
+#~ msgid "Nopea Media"
+#~ msgstr "Nopea Media"
+
+#~ msgid "Left margin"
+#~ msgstr "Vasen marginaali"
+
+#~ msgid "Right margin"
+#~ msgstr "Oikea marginaali"
+
+#~ msgid "Bottom margin"
+#~ msgstr "Alamarginaali"
+
+#~ msgid "PDF Layout Options"
+#~ msgstr "PDF ulkoasun asetukset"
+
+#~ msgid "Background Image"
+#~ msgstr "Taustakuva"

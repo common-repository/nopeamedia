@@ -1,0 +1,340 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+.wp-block-cgb-block-pdf-columns {
+  background: #bada55;
+  border: 0.2rem solid #292929;
+  color: #292929;
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 2rem; }
+
+.block-header {
+  font-size: 2.5rem;
+  margin-bottom: 0px; }
+
+.block-pdf {
+  margin-top: 80px; }
+  .block-pdf.columns-2 {
+    -webkit-column-count: 2;
+            column-count: 2; }
+  .block-pdf.columns-3 {
+    -webkit-column-count: 3;
+            column-count: 3; }
+  .block-pdf.columns-1 {
+    -webkit-column-count: 1;
+            column-count: 1; }
+  .block-pdf.margin-1 {
+    padding-top: 0px; }
+  .block-pdf.margin-2 {
+    padding-top: 30px; }
+  .block-pdf.margin-3 {
+    padding-top: 30px;
+    border-top: 2px solid gray; }
+  .block-pdf.textalign-1 {
+    text-align: justify; }
+  .block-pdf.textalign-2 {
+    text-align: left; }
+  .block-pdf.textalign-3 {
+    text-align: right; }
+
+.wp-block {
+  max-width: 1100px; }
+
+.nopea-block {
+  position: relative; }
+  .nopea-block.block-pdf:before {
+    z-index: 1;
+    content: "";
+    position: absolute;
+    outline: 5px dotted red;
+    right: -30px;
+    left: -30px;
+    top: -30px;
+    bottom: -30px; }
+  .nopea-block .only-pdf-text {
+    position: absolute;
+    right: -23px;
+    top: -40px;
+    background: gray;
+    color: #FFF;
+    font-weight: bold;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.8rem; }
+  .nopea-block.only-pdf:before {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    outline: 3px solid gray;
+    right: -20px;
+    left: -20px;
+    top: -20px;
+    bottom: -20px;
+    opacity: 0.1; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.block-image {
+  width: 100%;
+  display: block;
+  position: relative; }
+  .block-image .button-no-image {
+    position: absolute;
+    right: 0; }
+
+.image-container .image {
+  width: 100%; }
+
+.image-content-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap; }
+  .image-content-wrapper.wrap {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  .image-content-wrapper .image-content-100 {
+    width: 100%; }
+  .image-content-wrapper .image-content-80 {
+    width: 80%; }
+  .image-content-wrapper .image-content-70 {
+    width: 70%; }
+  .image-content-wrapper .image-content-60 {
+    width: 60%; }
+  .image-content-wrapper .image-content-50 {
+    width: 50%; }
+  .image-content-wrapper .image-content-40 {
+    width: 40%; }
+  .image-content-wrapper .image-content-30 {
+    width: 30%; }
+  .image-content-wrapper .image-content-20 {
+    width: 20%; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.infobox {
+  padding: 10px 25px;
+  border: 4px dotted #FFC93B;
+  margin-top: 70px; }
+
+.block-pdf.infobox-pdf-border {
+  border: 4px solid #dedede; }
+
+.block-pdf.infobox-pdf-background {
+  background-color: #f9f9f9;
+  border: 1px solid #d4d4d4;
+  border-radius: 2em; }
+
+.block-pdf.infobox-pdf-padded {
+  padding: 15px; }
+
+.block-pdf.infobox-pdf-border-primary {
+  border: 4px solid #dedede; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.nopea-columns-container {
+  margin-left: 0;
+  margin-right: 0; }
+  .nopea-columns-container > .block-editor-inner-blocks > .block-editor-block-list__layout {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between; }
+  .nopea-columns-container .editor-block-list__layout {
+    display: -ms-flexbox;
+    display: flex; }
+  .nopea-columns-container [data-type="nopea/column"] {
+    -ms-flex-preferred-size: 49%;
+        flex-basis: 49%; }
+
+.nopea-columns-col .editor-block-list__layout {
+  display: block; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.block-column-image-container {
+  position: relative;
+  z-position: 10; }
+
+.block-column-image-img {
+  float: right;
+  max-width: 500px;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  min-width: 400px;
+  min-height: 100px;
+  position: relative;
+  z-index: 20; }
+
+.block-column-image-button {
+  position: absolute;
+  z-index: 20;
+  left: 30%;
+  top: 50%; }
+  .block-column-image-button.close {
+    right: 5px;
+    top: 5px;
+    left: auto; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.Pdf-pagebreak {
+  border: 1px solid #dee2e6;
+  padding: 1px;
+  text-align: center;
+  border-radius: 15px; }
+  .Pdf-pagebreak.enabled {
+    border: 2px solid #11a0d2; }
+  .Pdf-pagebreak p {
+    font-weight: bold;
+    font-family: 'Arial', 'Helvetica', sans-sherif;
+    color: #495057; }
+
+.Pdf-columnbreak {
+  border: 1px solid #dee2e6;
+  padding: 1px;
+  text-align: center;
+  border-radius: 15px; }
+  .Pdf-columnbreak.enabled {
+    border: 2px solid #11a0d2; }
+  .Pdf-columnbreak p {
+    font-weight: bold;
+    font-family: 'Arial', 'Helvetica', sans-sherif;
+    color: #495057; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.block-library-spacer__resize-container {
+  background: #fbfbfb; }
+  .block-library-spacer__resize-container.is-selected {
+    background: #ececec; }
+
+.block-library-spacer__resize-container {
+  margin-bottom: 10px; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.wp-block-nopea-toc-block > .block-editor-inner-blocks > .block-editor-block-list__layout {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+  .wp-block-nopea-toc-block > .block-editor-inner-blocks > .block-editor-block-list__layout .width-40 {
+    -ms-flex-preferred-size: 40%;
+        flex-basis: 40%; }
+  .wp-block-nopea-toc-block > .block-editor-inner-blocks > .block-editor-block-list__layout .width-60 {
+    -ms-flex-preferred-size: 60%;
+        flex-basis: 60%; }
+  .wp-block-nopea-toc-block > .block-editor-inner-blocks > .block-editor-block-list__layout > .block-list-appender {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    display: none; }
+
+.wp-block-nopea-toc-block > .editor-inner-blocks > .block-editor-block-list__layout {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  .wp-block-nopea-toc-block > .editor-inner-blocks > .block-editor-block-list__layout .width-40 {
+    -ms-flex-preferred-size: 40%;
+        flex-basis: 40%; }
+  .wp-block-nopea-toc-block > .editor-inner-blocks > .block-editor-block-list__layout .width-60 {
+    -ms-flex-preferred-size: 60%;
+        flex-basis: 60%; }
+  .wp-block-nopea-toc-block > .editor-inner-blocks > .block-editor-block-list__layout > .block-list-appender {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    display: none; }
+
+.wp-block-nopea-toc-block-item {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  padding: 0px 5px 0px 15px;
+  border: 2px dotted #dedede; }
+  .wp-block-nopea-toc-block-item .number {
+    -ms-flex-preferred-size: 20%;
+        flex-basis: 20%; }
+  .wp-block-nopea-toc-block-item .text {
+    -ms-flex-preferred-size: 80%;
+        flex-basis: 80%; }
+
+.wp-block-nopea-toc-block-listing {
+  display: block; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.wp-block-nopea-toc-block-listing {
+  display: block !important; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.editor-block-list__layout [data-type="nopea/fixed-block"] {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.wp-block-nopea-web-block {
+  position: relative;
+  margin: 4rem 0; }
+  .wp-block-nopea-web-block:before {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    outline: 3px solid gray;
+    right: -20px;
+    left: -20px;
+    top: -20px;
+    bottom: -20px;
+    opacity: 0.1; }
+  .wp-block-nopea-web-block .only-web-text {
+    position: absolute;
+    right: -23px;
+    top: -40px;
+    background: gray;
+    color: #FFF;
+    font-weight: bold;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.8rem; }

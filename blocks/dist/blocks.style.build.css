@@ -1,0 +1,99 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+.wp-block-nopea-paragraph-columns.hidden {
+  display: none; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.nopea-image-container {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  min-height: 350px; }
+  .nopea-image-container .block-image.top {
+    max-width: 600px;
+    margin: 0 auto; }
+  .nopea-image-container .block-image.right {
+    max-width: 450px;
+    float: unset;
+    margin: 20px; }
+    .nopea-image-container .block-image.right img {
+      max-width: 300px; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.wp-block-nopea-infobox {
+  padding: 25px;
+  border: 4px solid  #f1f1f1;
+  border-radius: 2em;
+  margin: 50px auto;
+  max-width: 1000px; }
+  .wp-block-nopea-infobox.width-10 {
+    width: 100%; }
+  .wp-block-nopea-infobox.width-9 {
+    width: 90%; }
+  .wp-block-nopea-infobox.width-8 {
+    width: 80%; }
+  .wp-block-nopea-infobox.width-7 {
+    width: 70%; }
+  .wp-block-nopea-infobox.width-6 {
+    width: 60%; }
+  .wp-block-nopea-infobox.width-5 {
+    width: 50%; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.wp-block-nopea-columns {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  @media (min-width: 768px) {
+    .wp-block-nopea-columns {
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; } }
+  .wp-block-nopea-columns .wp-block-nopea-column {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.nopea-columns-image-container {
+  padding: 30px 0px;
+  text-align: center; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.wp-block-nopea-toc-block-listing {
+  display: none; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
